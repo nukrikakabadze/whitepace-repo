@@ -1,88 +1,59 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: 'Inter';
-    font-style: normal;
-} 
-
-.work{
-    display: flex;
-    align-items: center;
-    margin-top: 10vh;
-    background: url(./image/dark_bg.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center;
-    background-color: #043873;
-    justify-content: space-between;
-    align-items: center;
-
-    
+    background-color:white
 }
 
-.work h1{
-    font-family: 'Inter';
+
+.data{
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 100px;
+}
+
+.data h1{
+    font-family:'Inter'
     font-style: normal;
     font-weight: 700;
-    font-size:70px;
-    line-height: 75px;
+    font-size: 72px;
+    line-height: 87px;
     letter-spacing: -0.02em;
-    color: #FFFFFF;
-    margin-bottom:24px; 
+    color: #212529;
 }
 
-.work p{
+.data p{
+    width: 800px;
+    height: 90px;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-letter-spacing: -0.02em;
-color: #FFFFFF;
-flex:none
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin-bottom:80px;
-    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #212529;
 }
 
-.worktext{
-    display: end;
-}
-
-.photoapps {
-    width: 580px;
-    height: 470px;
-    
-}
-
-.readmore {
-    padding: 15px 25px;
-    background: #4F9CF9;
-    border-radius: 8px;
-    color: white;
-    border: none;
-}
-
-.worktext a{
+.data a{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 23px;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
     padding: 20px 40px;
     gap: 10px;
-    width: 194px;
+    width: 186px;
     height: 63px;
     background: #4F9CF9;
-    border-radius: 8px;
-    flex: none;
+    border-radius: 6px;
+    color: #FFFFFF;
     text-decoration: none;
-
+    margin-bottom:483px ;
 
 }
+
+
+
+
+
+
