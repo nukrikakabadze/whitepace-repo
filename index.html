@@ -4,27 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page </title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fontawesome.com/v4/icon/angle-down" rel="angle-down">
 </head>
 <body>
-    <header class="header">
-        <img src="./assets/images/Logo.png" alt="Logo">
-       <nav>
-         <a href="#">Products </a>
-         <a href="#">Solutions </a>
-         <a href="#">Resources</a>
-         <a href="#">Pricing</a>
-         <a href="#">Login</a>
-         <a href="#">Try Whitepace free</a>
-       </nav>
-    </header>
-    <main class="main">
-       
+   <header class="header">
+        <img src="./assets/image/Logo.png" alt="logo">
+        <div class="links">
+        <a href="#">Products</a><i class="fa fa-angle-down" aria-hidden="true"></i>
+        <a href="#">Solutions</a><i class="fa fa-angle-down" aria-hidden="true"></i>
+        <a href="#">Resouces</a><i class="fa fa-angle-down" aria-hidden="true"></i>
+        <a href="#">Pricing</a><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
+        <div class="btns">
+            <button class="btn">
+                Login
+            </button>
+            <button class="btn">
+                Try Whitepace Free
+            </button>
+        </div>
+   </header> 
+   <main>
 
+     <section class="Whitepace">
+        <div class="texts">
+             <h1>Get More Done with whitepace</h1>
+             <p>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
+             <button class="btn one">Try Whitepace Free</button>
+        </div>
+        <div class="blue_div"> </div>
+     </section>
 
+     <section class="Project">
+        <div class="texts2">
+             <h1>Project <br> Management</h1>
+             <img class="line" src="./assets/image/yellow_line.png" alt="line">
+             <p>Images, videos, PDFs and audio files are supported. Create math expressions and <br> directly from the app. Take photos with the mobile app and save them <br> to a note. </p>
+             <button class="btn two">Get Started</button>
+        </div>
+        <div class="blue_div2"> </div>
+     </section>
 
-    </main>
-
-
+   </main>
 </body>
 </html>
