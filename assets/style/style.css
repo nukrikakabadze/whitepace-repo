@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    padding: 140px 220px 140px 140px;
+}
+
+
+.h1 {
+    color: #212529;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.yellow {
+    padding: 0px 300px 0px 370px;
+
+}
+
+.article {
+background: #FFFFFF;
+box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+padding: 60px 82px 60px 40px;
+gap: 60px;
+
+
+
+}
+
+.article2 {
+background: #4F9CF9;
+box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+padding: 60px 82px 60px 40px;
+gap: 60px;
+
+}
+
+.section {
+    display: flex;
+    gap: 32px;
+}
+
+.photo {
+    width: 70px;
+    height: 70px;
+}
+
+.triangles {
+    padding-left: 350px;
+}
+
+
+    
+
+
